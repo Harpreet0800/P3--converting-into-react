@@ -1,0 +1,116 @@
+body {font-family: Arial;margin: 0;}
+nav {background-color: #00b8b8;}
+nav ul {list-style-type: none;margin: 0;padding: 18px;
+text-align: center;
+}
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+#banner {
+  position: relative;
+  text-align: center;
+}
+#banner img {
+  width: 800px;
+  height: 300px;
+}
+#name {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  color: white;
+  font-size: 28px;
+}
+#about,
+#work,
+#gallery,
+#signup,
+#contact,
+#articles,
+#tutorials {
+  text-align: center;
+  padding: 30px;
+}
+h2 {
+  color: #00a6a6;
+}
+.project-images img {
+  width: 350px;
+  height: 240px;
+  margin: 5px;
+}
+#gallery img {
+  width: 230px;
+  height: 180px;
+  margin: 5px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.card {
+  width: 230px;
+  background-color: white;
+  padding-bottom: 15px;
+  box-shadow: 0 2px 6px gray;
+  text-align: left;
+}
+.card img {
+  width: 100%;
+  height: 150px;
+}
+.card h3,
+.card p {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+#articles,
+#gallery {
+  background-color: #f2ffff;
+}
+button {
+  background-color: #00a6a6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+#signup input {
+  width: 300px;
+  height: 35px;
+  padding: 0 10px;
+}
+#signup button {
+  height: 37px;
+  margin-left: 5px;
+}
+.footer {
+  background-color: #00c2c2;
+  color: #073b3b;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 25px;
+}
+.footer-column {
+  width: 25%;
+}
+.footer-column p {
+  font-size: 14px;
+}
+.social-icons {
+  display: flex;
+  gap: 12px;
+}
+.footer-bottom {
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+}
