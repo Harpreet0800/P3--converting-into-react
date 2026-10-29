@@ -1,7 +1,7 @@
 function Banner() {
   return (
     <div id="banner">
-      <img src="/images/deakin.jpeg" alt="Deakin University" />
+      <img src="/images/banner.jpg" alt="Deakin University" />
       <div id="name">
         Hey, I'm Harpreet
       </div>
